@@ -1,7 +1,7 @@
 module Main where
 
-import           Lib
+import           Lib(program)
 import           Output
 
 main :: IO ()
-main = program Russian
+main = program English
